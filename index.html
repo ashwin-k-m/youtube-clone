@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+
+    <div class="header d-flex justify-content-between p-2 bg-light col-12">
+        <div class="left d-flex col-2">
+            <div class="menu mr-3">
+                <i class="material-symbols-outlined">menu</i>
+            </div>
+            <div class="logo">
+                <img src="logo.jpg" class="ytimg">
+            </div>
+        </div>
+        <div class="center d-flex align-items-center flex-grow-1 col-6">
+            <form class="d-flex w-100">
+                <input type="text" placeholder="Search" id="field" class="form-control">
+                <button class="searchbtn btn btn-outline-secondary" title="Search"><i class="material-symbols-outlined">search</i></button>
+            </form>
+        </div>
+        <div class="right d-flex col-4">
+            <div class="create" title="Create">
+                <button class="btn"><i class="material-symbols-outlined">video_call</i></button>
+            </div>
+            <div class="notification" title="Notifications">
+                <button class="btn"><i class="material-symbols-outlined">notifications</i></button>
+            </div>
+            <div class="account" title="Account SignIn">
+                <button class="btn"><i class="material-symbols-outlined">account_circle</i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 col-md-2 d-flex flex-wrap">
+                <div class="side h-50">
+                    <div class="home pb-3 align-items-center">
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">home</i> Home</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">animated_images</i> Shorts</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">subscriptions</i> Subscriptions</button>
+                    </div>
+                    <div class="you pb-3">
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">history</i> History</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">playlist_play</i> Playlists</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">smart_display</i> Your Videos</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">school</i> Your Courses</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">schedule</i> Watch Later</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">thumb_up</i> Liked Videos</button>
+                    </div>
+                    <div class="subscription pb-3">
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">list</i> All Subscriptions</button>
+                    </div>
+                    <div class="explore pb-3">
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">local_fire_department</i> Trending</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">local_mall</i> Shopping</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">music_note</i> Music</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">movie</i> Film</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">sports</i> Sports</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">styler</i> Fashion</button>
+                    </div>
+                    <div class="settings pb-3">
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">settings</i> Settings</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">flag</i> Report</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">help</i> Help</button>
+                        <button class="btn btn-light mb-3 w-100"><i class="material-symbols-outlined">feedback</i> Feedback</button>
+                    </div>
+                    <div class="faq">
+                        <p>All copyright reserved to YouTube.<br>A product of Google(TM).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 col-md-10">
+                <div class="content h-50">
+                    <div class="container-fluid topics col-12 m-3 mb-5" style="height: 15%;">
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">All</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Gaming</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Movies</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Makeup</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Most Viewed</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Top Trending</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">English Songs</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Hindi Songs</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Football</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Anime</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">PUBG</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Songs</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Animation</button>
+                        <button class="topicbtn btn btn-outline-secondary btn-sm m-1">Latest Videos</button>
+                    </div>
+
+                    <div class="container-fluid suggested">
+                        <div class="titleshow m-4" style="height: 5%;">
+                            <h2>Suggested Videos</h2>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap col-12">
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6jVUSsByq9Y" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>MrWhoseTheBoss</b> - 17M Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tlXlovh5JfQ" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Pubg Rich</b> - 22K Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KrLj6nc516A" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>MR Beast</b> - 85M Views</h5>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap col-12">
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OdQrlp3uYQM" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Crunchyroll</b> - 1.2M Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CS0UAH2UhQw" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>jordinan</b> - 7.7M Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6KcV1C1Ui5s" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Mark Robber</b> - 65K Views</h5>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap col-12">
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eBybK-PTGAo" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Unboxing Dude</b> - 1.7M Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/99Nh_gXflS8" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Village Food Channel</b> - 5.8M Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aDzt0pg4WmE" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Strell Malayalam</b> - 673K Views</h5>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap col-12">
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/z43kaL8ALng" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Lifeofshazham</b> - 2.1M Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AnwPF6nZj7Y" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Zach King</b> - 277M Views</h5>
+                            </div>
+                            <div class="container-fluid col-12 col-md-4 mb-5 mt-3">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5lzoxHSn0C0" frameborder="0" allowfullscreen></iframe>
+                                <h5><b>Sony Pictures</b> - 39M Views</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
